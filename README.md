@@ -4,14 +4,14 @@
 
 **Support that remembers.**
 
-[![Team Zenith](https://img.shields.io/badge/Team-Zenith-8b5cf6?style=for-the-badge)](https://github.com/RupaHasini-04/Hack_with_Hyderabad_3.0)
+[![Team Zenith](https://img.shields.io/badge/Team-Zenith-8b5cf6?style=for-the-badge)](https://github.com/RupaHasini-04/remi)
 [![Next.js](https://img.shields.io/badge/Next.js-16-000?style=for-the-badge&logo=next.js)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](./LICENSE)
 
 *Nothing angers a customer more than repeating their story.*
 
-[Live Demo](https://remi-2.netlify.app/) · [GitHub Repository](https://github.com/RupaHasini-04/Hack_with_Hyderabad_3.0)
+[Live Demo](https://remi-2.netlify.app/) · [GitHub Repository](https://github.com/RupaHasini-04/remi)
 
 </div>
 
@@ -136,7 +136,7 @@ graph TB
 
 ```bash
 # Clone
-git clone https://github.com/RupaHasini-04/Hack_with_Hyderabad_3.0
+git clone https://github.com/RupaHasini-04/remi
 cd remi
 
 # Install and run (mock mode — no API keys needed)

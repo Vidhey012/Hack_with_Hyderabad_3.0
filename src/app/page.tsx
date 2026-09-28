@@ -70,10 +70,10 @@ function FrustrationMeter({ level }: { level: FrustrationLevel }) {
     level <= 3
       ? "var(--frustration-low)"
       : level <= 6
-      ? "var(--frustration-medium)"
-      : level <= 8
-      ? "var(--frustration-high)"
-      : "var(--frustration-critical)";
+        ? "var(--frustration-medium)"
+        : level <= 8
+          ? "var(--frustration-high)"
+          : "var(--frustration-critical)";
 
   return (
     <div className="frustration-meter">
@@ -565,8 +565,8 @@ function InboxScreen({
                     {ticket.slaStatus === "breached"
                       ? "SLA BREACHED"
                       : ticket.slaStatus === "warning"
-                      ? "SLA WARNING"
-                      : "Within SLA"}
+                        ? "SLA WARNING"
+                        : "Within SLA"}
                   </span>
                   <span className={`chip chip-status-${ticket.status}`}>
                     {ticket.status}
@@ -652,9 +652,8 @@ function ChatScreen({
         {/* Briefing Card */}
         {briefingCard && (
           <motion.div
-            className={`glass glass-specular glow-edge ${
-              briefingCard.frustrationLevel >= 7 ? "glow-edge-danger" : briefingCard.frustrationLevel <= 3 ? "glow-edge-success" : ""
-            }`}
+            className={`glass glass-specular glow-edge ${briefingCard.frustrationLevel >= 7 ? "glow-edge-danger" : briefingCard.frustrationLevel <= 3 ? "glow-edge-success" : ""
+              }`}
             style={{ padding: 20 }}
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -783,11 +782,10 @@ function ChatScreen({
                       msg.role === "agent"
                         ? "rgba(99, 102, 241, 0.1)"
                         : "rgba(255, 255, 255, 0.06)",
-                    border: `1px solid ${
-                      msg.role === "agent"
+                    border: `1px solid ${msg.role === "agent"
                         ? "rgba(99, 102, 241, 0.2)"
                         : "rgba(255, 255, 255, 0.08)"
-                    }`,
+                      }`,
                     fontSize: 14,
                     lineHeight: 1.6,
                     whiteSpace: "pre-wrap",
@@ -901,7 +899,7 @@ function ChatScreen({
                 <button className="glass-btn glass-btn-primary" onClick={onSendReply}>
                   ✉ Send Reply
                 </button>
-                <button className="glass-btn" onClick={() => {}}>
+                <button className="glass-btn" onClick={() => { }}>
                   ✏️ Edit
                 </button>
               </div>
@@ -967,14 +965,14 @@ function ChatScreen({
                     {step.type === "identify"
                       ? "🔍"
                       : step.type === "recall"
-                      ? "🧠"
-                      : step.type === "reason"
-                      ? "💭"
-                      : step.type === "act"
-                      ? "⚡"
-                      : step.type === "respond"
-                      ? "💬"
-                      : "📝"}
+                        ? "🧠"
+                        : step.type === "reason"
+                          ? "💭"
+                          : step.type === "act"
+                            ? "⚡"
+                            : step.type === "respond"
+                              ? "💬"
+                              : "📝"}
                   </div>
                   <div style={{ flex: 1, minWidth: 0 }}>
                     <div style={{ fontSize: 12, fontWeight: 500, textTransform: "capitalize" }}>
@@ -1760,7 +1758,7 @@ function AboutScreen() {
         <h3 style={{ fontSize: 16, marginBottom: 12 }}>Links</h3>
         <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
           <a
-            href="https://github.com/RupaHasini-04/Hack_with_Hyderabad_3.0"
+            href="https://github.com/RupaHasini-04/remi"
             target="_blank"
             rel="noopener noreferrer"
             className="glass-btn glass-btn-primary"
