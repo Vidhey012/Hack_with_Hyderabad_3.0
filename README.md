@@ -233,10 +233,10 @@ Tests verify two critical properties:
 | Name | Role |
 |------|------|
 | **Rupa Hasini** | Team Lead |
-| Pravallika | |
-| Shruthi | |
-| Madhurima | |
-| Tasleem | |
+| Pravallika | Frontend |
+| Shruthi | Backend |
+| Madhurima | AI Integrator |
+| Tasleem | Deployment & Integration |
 
 Built with care at HackWithHyderabad3.0.
 
