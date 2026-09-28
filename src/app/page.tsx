@@ -298,7 +298,7 @@ export default function RemiApp() {
             Support that remembers.
           </span>
           <span className="badge badge-accent" style={{ fontSize: 11, padding: "2px 8px" }}>
-            Team Zenith • HackWithHyderabad3.0
+            Team Zenith
           </span>
         </div>
 
@@ -429,7 +429,7 @@ export default function RemiApp() {
           color: "var(--text-tertiary)",
         }}
       >
-        Built by Team Zenith at HackWithHyderabad3.0
+        Built by Team Zenith
       </footer>
 
       {/* ── Toast ──────────────────────────────────────────────────────────── */}
@@ -1641,10 +1641,10 @@ function PortalScreen({ customerId }: { customerId: string }) {
 function AboutScreen() {
   const members = [
     { name: "Rupa Hasini", role: "Team Lead" },
-    { name: "Pravallika", role: null },
-    { name: "Shruthi", role: null },
-    { name: "Madhurima", role: null },
-    { name: "Tasleem", role: null },
+    { name: "Pravallika", role: "Frontend" },
+    { name: "Shruthi", role: "Backend" },
+    { name: "Madhurima", role: "AI Integrator" },
+    { name: "Tasneem", role: "Deployment & Integration" },
   ];
 
   return (
@@ -1683,7 +1683,7 @@ function AboutScreen() {
           Support that remembers.
         </p>
         <p style={{ fontSize: 13, color: "var(--text-tertiary)" }}>
-          Built at HackWithHyderabad3.0
+          AI Customer Support Agent
         </p>
       </motion.div>
 
@@ -1731,7 +1731,7 @@ function AboutScreen() {
             color: "var(--text-tertiary)",
           }}
         >
-          Built with care at HackWithHyderabad3.0.
+          Built with care by Team Zenith.
         </p>
       </motion.div>
 
@@ -1759,14 +1759,21 @@ function AboutScreen() {
       <motion.div className="glass" style={{ padding: 24 }} {...stagger(3)}>
         <h3 style={{ fontSize: 16, marginBottom: 12 }}>Links</h3>
         <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
-          <a href="https://github.com/012" target="_blank" rel="noopener noreferrer" className="glass-btn glass-btn-primary">
-            GitHub
+          <a
+            href="https://github.com/RupaHasini-04/Hack_with_Hyderabad_3.0"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="glass-btn glass-btn-primary"
+          >
+            GitHub Repository
           </a>
-          <a href="https://demourl" target="_blank" rel="noopener noreferrer" className="glass-btn">
+          <a
+            href="https://hackwithhyderabad.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="glass-btn"
+          >
             Live Demo
-          </a>
-          <a href="https://devovediourl" target="_blank" rel="noopener noreferrer" className="glass-btn">
-            Demo Video
           </a>
         </div>
       </motion.div>

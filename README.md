@@ -4,15 +4,14 @@
 
 **Support that remembers.**
 
-[![HackWithHyderabad3.0](https://img.shields.io/badge/Hackathon-HackWithHyderabad3.0-6366f1?style=for-the-badge)](https://hackwithhyderabad.com)
-[![Team Zenith](https://img.shields.io/badge/Team-Zenith-8b5cf6?style=for-the-badge)](https://github.com/012)
+[![Team Zenith](https://img.shields.io/badge/Team-Zenith-8b5cf6?style=for-the-badge)](https://github.com/RupaHasini-04/Hack_with_Hyderabad_3.0)
 [![Next.js](https://img.shields.io/badge/Next.js-16-000?style=for-the-badge&logo=next.js)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](./LICENSE)
 
 *Nothing angers a customer more than repeating their story.*
 
-[Live Demo](https://demourl) · [Demo Video](https://devovediourl) · [GitHub](https://github.com/012)
+[Live Demo](https://remi-2.netlify.app/) · [GitHub Repository](https://github.com/RupaHasini-04/Hack_with_Hyderabad_3.0)
 
 </div>
 
@@ -137,7 +136,7 @@ graph TB
 
 ```bash
 # Clone
-git clone https://github.com/012
+git clone https://github.com/RupaHasini-04/Hack_with_Hyderabad_3.0
 cd remi
 
 # Install and run (mock mode — no API keys needed)
@@ -236,7 +235,7 @@ Tests verify two critical properties:
 | Pravallika | Frontend |
 | Shruthi | Backend |
 | Madhurima | AI Integrator |
-| Tasleem | Deployment & Integration |
+| Tasneem | Deployment & Integration |
 
 Built with care at HackWithHyderabad3.0.
 

@@ -4,11 +4,10 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Remi — Support that remembers | Team Zenith",
   description:
-    "Remi is an AI Customer Support Agent with full customer memory. Built by Team Zenith at HackWithHyderabad3.0. Four memory layers, agent reasoning trace, frustration engine, and customer portal.",
+    "Remi is an AI Customer Support Agent with full customer memory. Built by Team Zenith. Four memory layers, agent reasoning trace, frustration engine, and customer portal.",
   keywords: [
     "AI customer support",
     "memory agent",
-    "HackWithHyderabad3.0",
     "Team Zenith",
     "customer memory",
   ],
@@ -18,14 +17,14 @@ export const metadata: Metadata = {
     { name: "Pravallika" },
     { name: "Shruthi" },
     { name: "Madhurima" },
-    { name: "Tasleem" },
+    { name: "Tasneem" },
   ],
   openGraph: {
     title: "Remi — Support that remembers",
     description:
-      "AI Customer Support Agent with four-layer memory. Never makes customers repeat their story. Built by Team Zenith at HackWithHyderabad3.0.",
+      "AI Customer Support Agent with four-layer memory. Never makes customers repeat their story. Built by Team Zenith.",
     type: "website",
-    url: "https://demourl",
+    url: "https://hackwithhyderabad.netlify.app/",
   },
 };
 
